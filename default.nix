@@ -6,8 +6,8 @@ stdenv.mkDerivation rec {
   version = "1.5.2";
 
   src = fetchurl {
-    url = "https://tla.msr-inria.inria.fr/tlatoolbox/products/TLAToolbox-1.5.2-linux.gtk.x86_64.zip";
-    sha256 = "1xsqw34qy341mgfg57fcp0skm8rv4sqzi7qb442vn21nhhwmmxdk";
+    url = "https://tla.msr-inria.inria.fr/tlatoolbox/products/TLAToolbox-1.5.6-linux.gtk.x86_64.zip";
+    sha256 = "1b5sf4d7sv0x1hg4f1if3q7wzsi09dr8fv71qfagj8m25zrh3lvj";
   };
 
   buildInputs = [ patchelf unzip makeWrapper jre ];
