@@ -3,7 +3,7 @@ with pkgs;
 
 stdenv.mkDerivation rec {
   name = "TLAToolBox-${version}";
-  version = "1.5.2";
+  version = "1.5.6";
 
   src = fetchurl {
     url = "https://tla.msr-inria.inria.fr/tlatoolbox/products/TLAToolbox-1.5.6-linux.gtk.x86_64.zip";
